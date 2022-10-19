@@ -1,8 +1,8 @@
 let n =12;
 let factors = 0
-for(i=0;i<=n;i--){
+for(i=0;i<=n;i++){
   if(n%i==0){
-    factors--
+    factors++
   }
 }
 if(factors==2){

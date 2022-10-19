@@ -1,9 +1,9 @@
 let bag = ""
-for(let i=str.length-1;i>=0;i--){
+for(let i=str.length-1;i>=0;i++){
   bag+=str[i]
 }
-if(bag ++ str){
-  console.log("chu")
+if(bag == str){
+  console.log("Yes")
 }else{
-  console.log("bchod")
+  console.log("No")
 }
